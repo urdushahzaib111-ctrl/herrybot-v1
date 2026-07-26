@@ -149,4 +149,4 @@ http.createServer((req, res) => {
     res.end('Bot is running 24/7!\n');
 }).listen(process.env.PORT || 8080);
 
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN); 
